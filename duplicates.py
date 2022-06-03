@@ -45,4 +45,4 @@ for path, subdirs, files in os.walk(target_path):
                         if(choice == "2"):
                             os.remove(full_path_scan)
                             
-print("\nDone")
+input("\nDone\nPress any key to exit this window...\n")
